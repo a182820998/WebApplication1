@@ -1,0 +1,15 @@
+﻿@* 加入Controller時，記得修改 *@
+
+@{
+    string controllerName = Convert.ToString(HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"]);
+    switch (controllerName)
+    {
+        case "Login":
+            Layout = "~/Views/Shared/_LoginLayout.cshtml";
+            break;
+
+        default: //CustomersController
+            Layout = "~/Views/Shared/_Layout.cshtml";
+            break;
+    }
+}
