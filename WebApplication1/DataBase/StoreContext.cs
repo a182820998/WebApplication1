@@ -9,20 +9,21 @@ using System.Threading.Tasks;
 using System.Web;
 using WebApplication1.DataBase.ProjectAttribute;
 using WebApplication1.Models.ClientData;
+using WebApplication1.Models.TestData;
 using WebApplication1.Utility;
 
 namespace WebApplication1.DataBase
 {
     public class StoreContext : DbContext
     {
-        public StoreContext() : base("StoreContext") //call decryption when instance context obj
+        public StoreContext() : base("StoreContext") //建立db context新實例時，加入decrypt event method
         {
             ((IObjectContextAdapter)this).ObjectContext.ObjectMaterialized += new ObjectMaterializedEventHandler(ObjectMaterialized); //delegate
         }
 
         public override int SaveChanges()
         {
-            var contextAdapter = ((IObjectContextAdapter)this);
+            IObjectContextAdapter contextAdapter = this;
             contextAdapter.ObjectContext.DetectChanges(); //force this. Sometimes entity state needs a handle jiggle
             var pendingEntities = contextAdapter.ObjectContext.ObjectStateManager
                                   .GetObjectStateEntries(EntityState.Added | EntityState.Modified)
@@ -58,8 +59,7 @@ namespace WebApplication1.DataBase
             return result;
         }
 
-        //Avoid the table name become plural
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        protected override void OnModelCreating(DbModelBuilder modelBuilder) //Avoid the table name become plural
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
@@ -84,6 +84,18 @@ namespace WebApplication1.DataBase
         }
 
         public DbSet<Product> Products
+        {
+            get;
+            set;
+        }
+
+        public DbSet<Grade> Grades
+        {
+            get;
+            set;
+        }
+
+        public DbSet<Student> Students
         {
             get;
             set;

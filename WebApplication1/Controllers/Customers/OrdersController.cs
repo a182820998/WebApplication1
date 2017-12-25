@@ -25,11 +25,14 @@ namespace WebApplication1.Controllers.Customers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Order order = db.Orders.Find(id);
+
             if (order == null)
             {
                 return HttpNotFound();
             }
+
             return View(order);
         }
 
@@ -67,11 +70,14 @@ namespace WebApplication1.Controllers.Customers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Order order = db.Orders.Find(id);
+
             if (order == null)
             {
                 return HttpNotFound();
             }
+
             ViewBag.CustomerId = new SelectList(db.Customers, "Id", "Name", order.CustomerId);
             ViewBag.ProductId = new SelectList(db.Products, "ProductId", "Name", order.ProductId);
             return View(order);
@@ -90,6 +96,7 @@ namespace WebApplication1.Controllers.Customers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
             ViewBag.CustomerId = new SelectList(db.Customers, "Id", "Name", order.CustomerId);
             ViewBag.ProductId = new SelectList(db.Products, "ProductId", "Name", order.ProductId);
             return View(order);
@@ -102,11 +109,14 @@ namespace WebApplication1.Controllers.Customers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Order order = db.Orders.Find(id);
+
             if (order == null)
             {
                 return HttpNotFound();
             }
+
             return View(order);
         }
 
@@ -127,6 +137,7 @@ namespace WebApplication1.Controllers.Customers
             {
                 db.Dispose();
             }
+
             base.Dispose(disposing);
         }
     }

@@ -22,14 +22,6 @@ namespace WebApplication1
                 LoginPath = new PathString("/Login/Login"),
                 ExpireTimeSpan = TimeSpan.FromMinutes(5)
             });
-
-            //app.UseFacebookAuthentication(new FacebookAuthenticationOptions
-            //{
-            //    AppId = "1771130356522631",
-            //    AppSecret = "1f94444f287b59036067247e8dd5f818",
-            //    Scope = { "email" },
-            //    UserInformationEndpoint = "https://graph.facebook.com/v2.11/me?fields=id,name,email"
-            //});
         }
     }
 }

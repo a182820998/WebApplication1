@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello React</title>
+    @RenderSection("Scripts", false)
+    @RenderSection("Styles", false)
+</head>
+
+<body>
+    <div class="container body-content", id="content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ReactTest</p>
+        </footer>
+    </div>
+</body>
+</html>
