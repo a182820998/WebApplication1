@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\user\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_WebApplication1.-1792538291.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\Documents\Visual Studio 2015\Projects\cloud\WebApplication1" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive">
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\csc.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.Build.Tasks.CodeAnalysis.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.CSharp.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.VisualBasic.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CSharp.Core.targets" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.VisualBasic.Core.targets" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\System.Collections.Immutable.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\System.Reflection.Metadata.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\vbc.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe.config" t="Include" />
+      </e>
+      <e p="WebApplication1" t="IncludeRecursive">
+        <e p="App_Data" t="Include">
+          <e p="CodeFirstDb.mdf" t="Include" />
+          <e p="CodeFirstDb_log.ldf" t="Include" />
+        </e>
+        <e p="App_Start" t="Include">
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="ReactConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+          <e p="Startup.Auth.cs" t="Include" />
+        </e>
+        <e p="ApplicationInsights.config" t="Include" />
+        <e p="aspnet_client" t="Include">
+          <e p="system_web" t="Include">
+            <e p="2_0_50727" t="Include" />
+            <e p="4_0_30319" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive">
+          <e p="ApplicationInsights.config" t="Include" />
+          <e p="EntityFramework.dll" t="Include" />
+          <e p="EntityFramework.SqlServer.dll" t="Include" />
+          <e p="EntityFramework.SqlServer.xml" t="Include" />
+          <e p="EntityFramework.xml" t="Include" />
+          <e p="Facebook.dll" t="Include" />
+          <e p="Facebook.xml" t="Include" />
+          <e p="Microsoft.AI.Agent.Intercept.dll" t="Include" />
+          <e p="Microsoft.AI.DependencyCollector.dll" t="Include" />
+          <e p="Microsoft.AI.DependencyCollector.xml" t="Include" />
+          <e p="Microsoft.AI.PerfCounterCollector.dll" t="Include" />
+          <e p="Microsoft.AI.ServerTelemetryChannel.dll" t="Include" />
+          <e p="Microsoft.AI.ServerTelemetryChannel.xml" t="Include" />
+          <e p="Microsoft.AI.Web.dll" t="Include" />
+          <e p="Microsoft.AI.Web.xml" t="Include" />
+          <e p="Microsoft.AI.WindowsServer.dll" t="Include" />
+          <e p="Microsoft.AI.WindowsServer.xml" t="Include" />
+          <e p="Microsoft.ApplicationInsights.dll" t="Include" />
+          <e p="Microsoft.ApplicationInsights.xml" t="Include" />
+          <e p="Microsoft.AspNet.Facebook.dll" t="Include" />
+          <e p="Microsoft.AspNet.Facebook.xml" t="Include" />
+          <e p="Microsoft.AspNet.Identity.Core.dll" t="Include" />
+          <e p="Microsoft.AspNet.Identity.Core.xml" t="Include" />
+          <e p="Microsoft.AspNet.Identity.Owin.dll" t="Include" />
+          <e p="Microsoft.AspNet.Identity.Owin.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Authentication.Cookies.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Authentication.Cookies.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Authentication.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Authentication.Facebook.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Authentication.Facebook.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Authentication.OAuth.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Authentication.OAuth.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Authentication.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Cryptography.Internal.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Cryptography.Internal.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.DataProtection.Abstractions.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.DataProtection.Abstractions.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.DataProtection.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.DataProtection.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Hosting.Abstractions.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Hosting.Abstractions.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Hosting.Server.Abstractions.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Http.Abstractions.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Http.Abstractions.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Http.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Http.Extensions.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Http.Extensions.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Http.Features.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Http.Features.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.Http.xml" t="Include" />
+          <e p="Microsoft.AspNetCore.WebUtilities.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.WebUtilities.xml" t="Include" />
+          <e p="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" t="Include" />
+          <e p="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" t="Include" />
+          <e p="Microsoft.Extensions.Configuration.Abstractions.dll" t="Include" />
+          <e p="Microsoft.Extensions.Configuration.Abstractions.xml" t="Include" />
+          <e p="Microsoft.Extensions.DependencyInjection.Abstractions.dll" t="Include" />
+          <e p="Microsoft.Extensions.DependencyInjection.Abstractions.xml" t="Include" />
+          <e p="Microsoft.Extensions.FileProviders.Abstractions.dll" t="Include" />
+          <e p="Microsoft.Extensions.FileProviders.Abstractions.xml" t="Include" />
+          <e p="Microsoft.Extensions.Logging.Abstractions.dll" t="Include" />
+          <e p="Microsoft.Extensions.Logging.Abstractions.xml" t="Include" />
+          <e p="Microsoft.Extensions.ObjectPool.dll" t="Include" />
+          <e p="Microsoft.Extensions.ObjectPool.xml" t="Include" />
+          <e p="Microsoft.Extensions.Options.dll" t="Include" />
+          <e p="Microsoft.Extensions.Options.xml" t="Include" />
+          <e p="Microsoft.Extensions.Primitives.dll" t="Include" />
+          <e p="Microsoft.Extensions.Primitives.xml" t="Include" />
+          <e p="Microsoft.Extensions.WebEncoders.dll" t="Include" />
+          <e p="Microsoft.Extensions.WebEncoders.xml" t="Include" />
+          <e p="Microsoft.Net.Http.Headers.dll" t="Include" />
+          <e p="Microsoft.Net.Http.Headers.xml" t="Include" />
+          <e p="Microsoft.Owin.dll" t="Include" />
+          <e p="Microsoft.Owin.Host.SystemWeb.dll" t="Include" />
+          <e p="Microsoft.Owin.Host.SystemWeb.xml" t="Include" />
+          <e p="Microsoft.Owin.Security.Cookies.dll" t="Include" />
+          <e p="Microsoft.Owin.Security.Cookies.xml" t="Include" />
+          <e p="Microsoft.Owin.Security.dll" t="Include" />
+          <e p="Microsoft.Owin.Security.Facebook.dll" t="Include" />
+          <e p="Microsoft.Owin.Security.Facebook.xml" t="Include" />
+          <e p="Microsoft.Owin.Security.OAuth.dll" t="Include" />
+          <e p="Microsoft.Owin.Security.OAuth.xml" t="Include" />
+          <e p="Microsoft.Owin.Security.xml" t="Include" />
+          <e p="Microsoft.Owin.xml" t="Include" />
+          <e p="Microsoft.Web.Infrastructure.dll" t="Include" />
+          <e p="Newtonsoft.Json.dll" t="Include" />
+          <e p="Newtonsoft.Json.xml" t="Include" />
+          <e p="Owin.dll" t="Include" />
+          <e p="roslyn" t="Include">
+            <e p="csc.exe" t="Include" />
+            <e p="Microsoft.Build.Tasks.CodeAnalysis.dll" t="Include" />
+            <e p="Microsoft.CodeAnalysis.CSharp.dll" t="Include" />
+            <e p="Microsoft.CodeAnalysis.dll" t="Include" />
+            <e p="Microsoft.CodeAnalysis.VisualBasic.dll" t="Include" />
+            <e p="Microsoft.CSharp.Core.targets" t="Include" />
+            <e p="Microsoft.VisualBasic.Core.targets" t="Include" />
+            <e p="System.Collections.Immutable.dll" t="Include" />
+            <e p="System.Reflection.Metadata.dll" t="Include" />
+            <e p="vbc.exe" t="Include" />
+            <e p="VBCSCompiler.exe" t="Include" />
+            <e p="VBCSCompiler.exe.config" t="Include" />
+          </e>
+          <e p="System.Buffers.dll" t="Include" />
+          <e p="System.Net.Http.Formatting.dll" t="Include" />
+          <e p="System.Net.Http.Formatting.xml" t="Include" />
+          <e p="System.Text.Encodings.Web.dll" t="Include" />
+          <e p="System.Text.Encodings.Web.xml" t="Include" />
+          <e p="System.Web.Helpers.dll" t="Include" />
+          <e p="System.Web.Helpers.xml" t="Include" />
+          <e p="System.Web.Http.dll" t="Include" />
+          <e p="System.Web.Http.WebHost.dll" t="Include" />
+          <e p="System.Web.Http.WebHost.xml" t="Include" />
+          <e p="System.Web.Http.xml" t="Include" />
+          <e p="System.Web.Mvc.dll" t="Include" />
+          <e p="System.Web.Mvc.xml" t="Include" />
+          <e p="System.Web.Razor.dll" t="Include" />
+          <e p="System.Web.Razor.xml" t="Include" />
+          <e p="System.Web.Webpages.Deployment.dll" t="Include" />
+          <e p="System.Web.Webpages.Deployment.xml" t="Include" />
+          <e p="System.Web.Webpages.dll" t="Include" />
+          <e p="System.Web.Webpages.Razor.dll" t="Include" />
+          <e p="System.Web.Webpages.Razor.xml" t="Include" />
+          <e p="System.Web.Webpages.xml" t="Include" />
+          <e p="WebApplication1.dll" t="Include" />
+          <e p="WebApplication1.dll.config" t="Include" />
+          <e p="WebApplication1.pdb" t="Include" />
+          <e p="WebApplication1.vshost.exe" t="Include" />
+          <e p="WebApplication1.vshost.exe.config" t="Include" />
+          <e p="WebApplication1.vshost.exe.manifest" t="Include" />
+          <e p="zh-Hant" t="Include">
+            <e p="Microsoft.Owin.Security.resources.dll" t="Include" />
+            <e p="System.Web.Helpers.resources.dll" t="Include" />
+            <e p="System.Web.Mvc.resources.dll" t="Include" />
+            <e p="System.Web.Razor.resources.dll" t="Include" />
+            <e p="System.Web.Webpages.Deployment.resources.dll" t="Include" />
+            <e p="System.Web.Webpages.Razor.resources.dll" t="Include" />
+            <e p="System.Web.Webpages.resources.dll" t="Include" />
+          </e>
+        </e>
+        <e p="ClassDiagram1.cd" t="Include" />
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+          <e p="Site.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="Customers" t="Include">
+            <e p="CustomersController.cs" t="Include" />
+            <e p="LoginController.cs" t="Include" />
+            <e p="OrdersController.cs" t="Include" />
+            <e p="ProductsController.cs" t="Include" />
+          </e>
+          <e p="Exercise" t="Include">
+            <e p="GradesController.cs" t="Include" />
+            <e p="StudentsController.cs" t="Include" />
+          </e>
+          <e p="React" t="Include">
+            <e p="ReactController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DataBase" t="Include">
+          <e p="ProjectAttribute" t="Include">
+            <e p="Encrypted.cs" t="Include" />
+            <e p="PasswordCompare.cs" t="Include" />
+          </e>
+          <e p="StoreContext.cs" t="Include" />
+          <e p="StoreUtil.cs" t="Include" />
+        </e>
+        <e p="Exercise" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="201711251612106_InitialCreate.cs" t="Include" />
+          <e p="201711251612106_InitialCreate.Designer.cs" t="Include" />
+          <e p="201711251612106_InitialCreate.resx" t="Include" />
+          <e p="201711261238515_201711262038.cs" t="Include" />
+          <e p="201711261238515_201711262038.Designer.cs" t="Include" />
+          <e p="201711261238515_201711262038.resx" t="Include" />
+          <e p="201711261313596_201711262113.cs" t="Include" />
+          <e p="201711261313596_201711262113.Designer.cs" t="Include" />
+          <e p="201711261313596_201711262113.resx" t="Include" />
+          <e p="201711261351512_201711262151.cs" t="Include" />
+          <e p="201711261351512_201711262151.Designer.cs" t="Include" />
+          <e p="201711261351512_201711262151.resx" t="Include" />
+          <e p="201711261408221_201711262208.cs" t="Include" />
+          <e p="201711261408221_201711262208.Designer.cs" t="Include" />
+          <e p="201711261408221_201711262208.resx" t="Include" />
+          <e p="201711270820387_201711271620.cs" t="Include" />
+          <e p="201711270820387_201711271620.Designer.cs" t="Include" />
+          <e p="201711270820387_201711271620.resx" t="Include" />
+          <e p="201712100540289_201712101340.cs" t="Include" />
+          <e p="201712100540289_201712101340.Designer.cs" t="Include" />
+          <e p="201712100540289_201712101340.resx" t="Include" />
+          <e p="201712141018468_20171214_add_test_model.cs" t="Include" />
+          <e p="201712141018468_20171214_add_test_model.Designer.cs" t="Include" />
+          <e p="201712141018468_20171214_add_test_model.resx" t="Include" />
+          <e p="201712141457451_201712142257.cs" t="Include" />
+          <e p="201712141457451_201712142257.Designer.cs" t="Include" />
+          <e p="201712141457451_201712142257.resx" t="Include" />
+          <e p="Configuration.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ClientData" t="Include">
+            <e p="Customer.cs" t="Include" />
+            <e p="Order.cs" t="Include" />
+            <e p="Product.cs" t="Include" />
+          </e>
+          <e p="TestData" t="Include">
+            <e p="Grade.cs" t="Include" />
+            <e p="Student.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="LocalSystem.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="roslyn" t="Include" />
+        <e p="scripts" t="Include">
+          <e p="ai.0.22.9-build00167.js" t="Include" />
+          <e p="ai.0.22.9-build00167.min.js" t="Include" />
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-1.10.2.intellisense.js" t="Include" />
+          <e p="jquery-1.10.2.js" t="Include" />
+          <e p="jquery-1.10.2.min.js" t="Include" />
+          <e p="jquery-1.10.2.min.map" t="Include" />
+          <e p="jquery-3.2.1.intellisense.js" t="Include" />
+          <e p="jquery-3.2.1.js" t="Include" />
+          <e p="jquery-3.2.1.min.js" t="Include" />
+          <e p="jquery-3.2.1.min.map" t="Include" />
+          <e p="jquery-3.2.1.slim.js" t="Include" />
+          <e p="jquery-3.2.1.slim.min.js" t="Include" />
+          <e p="jquery-3.2.1.slim.min.map" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          <e p="modernizr-2.6.2.js" t="Include" />
+          <e p="myscripts" t="Include">
+            <e p="myfunction.js" t="Include" />
+          </e>
+          <e p="React" t="Include">
+            <e p="Component" t="Include">
+              <e p="JsonView.jsx" t="Include" />
+              <e p="Tutorial.jsx" t="Include" />
+            </e>
+            <e p="react-dom-server.js" t="Include" />
+            <e p="react-dom-server.min.js" t="Include" />
+            <e p="react-dom.js" t="Include" />
+            <e p="react-dom.min.js" t="Include" />
+            <e p="react-with-addons.js" t="Include" />
+            <e p="react-with-addons.min.js" t="Include" />
+            <e p="react.js" t="Include" />
+            <e p="react.min.js" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Utility" t="Include">
+          <e p="EncryptionUtility.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Customers" t="Include">
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Grades" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Login" t="Include">
+            <e p="Login.cshtml" t="Include" />
+            <e p="Logout.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
+          <e p="Orders" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Products" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="React" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginLayout.cshtml" t="Include" />
+            <e p="_ReactLayout.cshtml" t="Include" />
+          </e>
+          <e p="Students" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="web.config" t="Include" />
+        </e>
+        <e p="web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+        <e p="WebApplication1.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WebApplication1.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
