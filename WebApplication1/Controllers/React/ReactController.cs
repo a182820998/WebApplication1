@@ -20,16 +20,16 @@ namespace WebApplication1.Controllers.React
 
         public JsonResult ReactJson()
         {
-            var student = _db.Students.Join(
-                              _db.Grades,
-                              s => s.Id,
-                              g => g.Id,
-                              (s, g) => new
-            {
-                s.Name,
-                g.Math
-            }
-                          );
+            var student = _db.Students.Join( // SourceTable
+                _db.Grades, // Join SeedTable
+                s => s.Id, // Cursor
+                g => g.Id,
+                (s, g) => new //Select
+                {
+                    s.Name,
+                    g.Math
+                }
+            );
             return Json(student, JsonRequestBehavior.AllowGet);
         }
     }
